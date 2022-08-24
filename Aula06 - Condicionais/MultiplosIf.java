@@ -25,7 +25,7 @@ public class MultiplosIf {
             valor = 150;
         } else if (idade < 60) {
             valor = 250;
-        } else {
+        } else {=
             valor = 400;
         }
         
