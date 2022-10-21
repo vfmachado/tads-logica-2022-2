@@ -9,6 +9,10 @@ public class Forca {
         File meuArquivo = new File("palavras.txt");
         Scanner leitorArquivo = new Scanner(meuArquivo);
 
+        String[] ps = {"teste", "outra", "ok"};
+
+        
+
         String[] todasPalavras = new String[150];
         for (int i = 0; i < todasPalavras.length; i++) {
             todasPalavras[i] = leitorArquivo.nextLine().toUpperCase();
